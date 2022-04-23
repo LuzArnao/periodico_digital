@@ -234,6 +234,8 @@ td {
     grid-row-gap: 5px;
     height: 100vh;
     margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,181,252,1) 0%, rgba(254,219,249,1) 51%, rgba(255,255,255,1) 100%);        
 }
 
 .border {
@@ -315,8 +317,10 @@ section#principal {
     grid-template-columns: 50% 50%;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    height: 100vh;
+    height: 110vh;
     margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,181,252,1) 0%, rgba(254,219,249,1) 51%, rgba(255,255,255,1) 100%);
 }
 
 section#titulo_deportes {
@@ -356,8 +360,10 @@ section#principal_abajo {
     grid-template-columns: 50% 50%;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    height: 100vh;
+    height: 210vh;
     margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,181,252,1) 0%, rgba(254,219,249,1) 51%, rgba(255,255,255,1) 100%);
 }
 
 section#titulo_farandula {
@@ -469,11 +475,11 @@ section#video {
             "principal_derecha principal_derecha"
             "principal_abajo principal_abajo"
             "footer footer";
-        grid-template-rows: 100px 50px 1fr 1fr 10px 75px;
+        grid-template-rows: 100px 50px 1fr 1fr 10px 250px;
         grid-template-columns: 100%;
         grid-column-gap: 5px;
         grid-row-gap: 5px;
-        height: 100vh;
+        height: 300vh;
         margin: 0;
     }
 
@@ -488,12 +494,16 @@ section#video {
             "video video"
             "principal_abajo principal_abajo"
             "footer footer";
-        grid-template-rows: 100px 50px 1fr 1fr 50px 1fr 10px  75px;
+        grid-template-rows: 100px 50px 1fr 1fr 50px 1fr 10px  250px;
         grid-template-columns: 100%;
         grid-column-gap: 5px;
         grid-row-gap: 5px;
-        height: 100vh;
+        height: 450vh;
         margin: 0;
     }
+    #grilla {
+        
+        grid-template-rows: 100px 550px 10px 250px;
+        height: 120vh;
+    }
 }
-
