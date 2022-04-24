@@ -104,7 +104,7 @@ ul {
     height:60% ;
     left: 10%;
     border: solid 5px rgb(187, 94, 171);
-margin-top: 5%;
+    margin-top: 5%;
 }
 
 .main_tex {
@@ -247,7 +247,7 @@ td {
         "principal principal"
         "principal_abajo principal_abajo"
         "footer footer";
-    grid-template-rows: 100px 1fr 10px 75px;
+    grid-template-rows: 100px 600px 10px 75px;
     grid-template-columns: 100%;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
@@ -343,6 +343,25 @@ section#principal {
         "principal_abajo principal_abajo"
         "footer footer";
     grid-template-rows: 100px 50px 1fr 10px 75px;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    height: 100%;
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,181,252,1) 0%, rgba(254,219,249,1) 51%, rgba(255,255,255,1) 100%);
+}
+/* GRILLA - INTERNACIONAL */
+
+#grilla_internacional {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "titulo_deportes titulo_deportes"
+        "principal_izquierda principal_derecha"
+        "principal_abajo principal_abajo"
+        "footer footer";
+    grid-template-rows: 100px 50px 550px 10px 75px;
     grid-template-columns: 50% 50%;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
