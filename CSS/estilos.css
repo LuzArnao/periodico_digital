@@ -251,7 +251,7 @@ td {
     grid-template-columns: 100%;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,181,252,1) 0%, rgba(254,219,249,1) 51%, rgba(255,255,255,1) 100%);        
@@ -346,7 +346,7 @@ section#principal {
     grid-template-columns: 50% 50%;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    height: 110vh;
+    height: 100%;
     margin: 0;
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,181,252,1) 0%, rgba(254,219,249,1) 51%, rgba(255,255,255,1) 100%);
