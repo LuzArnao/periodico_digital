@@ -1,59 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/estilos.css">
-    <title>Periodico Digital</title>
-
-    <!-- Scripts para iconos de FontAwesone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/e0d0b4a478.js" crossorigin="anonymous"></script>
-    <!-- Scripts para iconos de FontAwesone -->
+    <title>Periodico Digital</title>
 </head>
-<div id="grilla_farandula">
-    <header class="header">
-        <img class="logo_nuevo" src="../IMAGEN/LOGOESN.png">
-        <h1 class="tituloprincipal_nuevo">Farandula</h1>
-        <i class="menu_navegacion fas fa-bars"></i> 
-        <nav class="nav">
-            <ul class="navegador">
-                <li><a class="enlace_navegador" href="../index.html">Home</a></li>
-                <li><a class="enlace_navegador" href="../PAGES/Farandula.html">Farandula</a></li>
-                <li><a class="enlace_navegador" href="../PAGES/Deportes.html">Deportes</a></li>
-                <li><a class="enlace_navegador" href="../PAGES/Nacional.html">Nacional</a></li>
-                <li><a class="enlace_navegador" href="../PAGES/Internacional.html">Internacional</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="titulo_farandula">
-          <h2>Camila estalla ante los comentarios sobre su cuerpo</h2>
-    </section>
+<body class="fondo_degradado">
 
-    <section id="principal_izquierda">
-        <p class="parrafo_izq_internacional">Si bien entiende que el precio de la fama involucra perder ciertos grados de privacidad, no poder siquiera pasar un día en la playa sin ser acosada por los fotógrafos comienza a afectar su salud. "Siempre he usado bikinis pequeños sin importarme cómo me veía, pero luego he visto las fotos y los comentarios online... Nunca me he sentido peor". En el texto, describe el proceso de 'luto' que atraviesa al recordar la inocencia de la niñez, una época 'sin gafas de sol, joyería ni autoconciencia' en la que poco interesa lo que otros piensen.</p>
-        <p class="parrafo_izq_internacional">Cabello se enfrenta a las críticas después de haber sido fotografiada con un bikini estampado en Miami. No es la primera vez, por lo que podríamos decir que la cantante de Havana se ha convertido en toda una experta al momento de lidiar con los haters, pero todo tiene un límite. En esta ocasión, ha querido responder cuanto antes con un emotivo comunicado en sus redes sociales, en el que expone el lado negativo de ser una figura pública, al mismo tiempo que arremete contra los cánones de belleza impuestos a las mujeres.</p>
-        <p class="parrafo_izq_internacional">La intérprete de Don't Go Yet admite que no ha sido fácil afrontar las críticas dirigidas a su cuerpo, pues se encuentra lejos del estándar de perfección que se exige a las celebridades. Para combatir los pensamientos negativos, acude a terapia y consume contenido de otras mujeres que aceptan su celulitis, hinchazón, estrías y cambios de peso, desafiando el retrato colectivo que se tiene de una persona sana. Camila asegura que vivimos en una 'cultura que se ha acostumbrado tanto a una imagen de cómo debería verse una mujer saludable y no es real para muchas'.</p>
-    </section>
-    <section id="principal_derecha">
-        <img class="img_cami" src="../IMAGEN/camila-z.jpg">
-    </section>
-    <section id="titulo_video">
-        <h2 class="titulo_videos">Videos</h2>
-    </section>
-    <section id="video">
+    <div class="container-fluid">
+        <div class="row justify-content-around p-2 border-bottom border-dark">
+        <div class="col-2"> 
+            <img class="logo_nuevo" src="../assets/images/LOGOESN.png">
+        </div>
+        <div class="col-3 align-self-center">
+            <h1>Farándula</h1>
+        </div>
+        <div class="col-6 align-self-center">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navegador">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./farandula.html">Farandula</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./deportes.html">Deportes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./nacional.html">Nacional</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./internacional.html">Internacional</a>
+                      </li>
+                    </ul>
+                </div>
+              </nav>
+        </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-6 m-3">
+                <h2>Camila estalla ante los comentarios sobre su cuerpo</h2>
+            </div>
+        </div>
+        <div class="row justify-content-around p-5">
+            <div class="col-4 align-self-center">
+                <p class="parrafo_izq_internacional">Si bien entiende que el precio de la fama involucra perder ciertos grados de privacidad, no poder siquiera pasar un día en la playa sin ser acosada por los fotógrafos comienza a afectar su salud. "Siempre he usado bikinis pequeños sin importarme cómo me veía, pero luego he visto las fotos y los comentarios online... Nunca me he sentido peor". En el texto, describe el proceso de 'luto' que atraviesa al recordar la inocencia de la niñez, una época 'sin gafas de sol, joyería ni autoconciencia' en la que poco interesa lo que otros piensen.</p>
+                <p class="parrafo_izq_internacional">Cabello se enfrenta a las críticas después de haber sido fotografiada con un bikini estampado en Miami. No es la primera vez, por lo que podríamos decir que la cantante de Havana se ha convertido en toda una experta al momento de lidiar con los haters, pero todo tiene un límite. En esta ocasión, ha querido responder cuanto antes con un emotivo comunicado en sus redes sociales, en el que expone el lado negativo de ser una figura pública, al mismo tiempo que arremete contra los cánones de belleza impuestos a las mujeres.</p>
+                <p class="parrafo_izq_internacional">La intérprete de Don't Go Yet admite que no ha sido fácil afrontar las críticas dirigidas a su cuerpo, pues se encuentra lejos del estándar de perfección que se exige a las celebridades. Para combatir los pensamientos negativos, acude a terapia y consume contenido de otras mujeres que aceptan su celulitis, hinchazón, estrías y cambios de peso, desafiando el retrato colectivo que se tiene de una persona sana. Camila asegura que vivimos en una 'cultura que se ha acostumbrado tanto a una imagen de cómo debería verse una mujer saludable y no es real para muchas'.</p>
+            </div>
+            <div class="col-5 align-self-center">
+                <img src="../assets/images/camila-z.jpg" alt="camila pensando" class="img_cami">
+            </div>
+        </div>
+       <div class="row justify-content-around">
         <iframe class="video" width="100%" height="365px" src="https://www.youtube.com/embed/n8aFUnVevKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section class="bordeado" id="principal_abajo">
-    </section>
-    <footer class="footer">
-        <div class="footer_redes">
-            <a target="_black" href="https://facebook.com"><i class="iconos_redes fab fa-facebook"></i></a>  
-            <a target="_black" href="https://instagram.com"><i class="iconos_redes fab fa-instagram"></i></a>  
-            <a target="_black" href="https://Twitter.com"><i class="iconos_redes fab fa-twitter"></i></a>  
-        </div> 
-        <p class="derechos_reservados">Derechos Reservados</p>
-    </footer>
-</div>
+       </div>
+        <div class="row justify-content-around p-2 border-top border-dark">
+            <div class="col-9">
+                <a target="_black" href="https://facebook.com"><i class="iconos_redes fab fa-facebook"></i></a>  
+                <a target="_black" href="https://instagram.com"><i class="iconos_redes fab fa-instagram"></i></a>  
+                <a target="_black" href="https://Twitter.com"><i class="iconos_redes fab fa-twitter"></i></a>  
+            </div> 
+            <div class="col-2 align-self-end">
+                <p class="derechos_reservados">© Derechos Reservados</p> 
+            </div>
+        </div>
+    </div>
+
+
+</body>
 </html>

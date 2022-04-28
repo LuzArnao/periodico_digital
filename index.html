@@ -1,51 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/estilos.css">
-    <title>Periodico Digital</title>
-
-    <!-- Scripts para iconos de FontAwesone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/e0d0b4a478.js" crossorigin="anonymous"></script>
-    <!-- Scripts para iconos de FontAwesone -->
+    <title>Periodico Digital</title>
 </head>
-
-<div id="grilla">
-    <header class="header">
-        <img class="logo_nuevo" src="IMAGEN/LOGOESN.png">
-        <h1 class="tituloprincipal_nuevo">Noticia</h1>
-        <i class="menu_navegacion fas fa-bars"></i> 
-        <nav class="nav">
-            <ul class="navegador">
-                <li><a class="enlace_navegador" href="index.html">Home</a></li>
-                <li><a class="enlace_navegador" href="PAGES/Farandula.html">Farandula</a></li>
-                <li><a class="enlace_navegador" href="PAGES/Deportes.html">Deportes</a></li>
-                <li><a class="enlace_navegador" href="PAGES/Nacional.html">Nacional</a></li>
-                <li><a class="enlace_navegador" href="PAGES/Internacional.html">Internacional</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="principal">
-                <img class="main_img" src="IMAGEN/football-world-cup.jpg">
-                <p class="main_tex">Clasificados a la Copa Mundial ¿Quiénes clasificaron para la Copa Mundial 2022 y qué equipos todavía tienen chance? </p>
-                <button class="main_boton">
-                    <a href="PAGES/Deportes.html">ir a la noticia</a>
-                </button>
-          </section>
-          <section class="bordeado" id="principal_abajo">
-        </section>   
-    <footer class="footer">
-        <div class="footer_redes">
-            <a target="_black" href="https://facebook.com"><i class="iconos_redes fab fa-facebook"></i></a>  
-            <a target="_black" href="https://instagram.com"><i class="iconos_redes fab fa-instagram"></i></a>  
-            <a target="_black" href="https://Twitter.com"><i class="iconos_redes fab fa-twitter"></i></a>  
-        </div> 
-        <p class="derechos_reservados">Derechos Reservados</p>
-        
-    </footer>
-</div>
-
+<body class="fondo_degradado">
+    <div class="container-fluid">
+        <div class="row justify-content-around p-2 border-bottom border-dark">
+        <div class="col-2"> 
+            <img class="logo_nuevo" src="./assets/images/LOGOESN.png">
+        </div>
+        <div class="col-3 align-self-center">
+            <h1>Noticias</h1>
+        </div>
+        <div class="col-6 align-self-center">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navegador">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/farandula.html">Farandula</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/deportes.html">Deportes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/nacional.html">Nacional</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/internacional.html">Internacional</a>
+                      </li>
+                    </ul>
+                </div>
+              </nav>
+        </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-6 m-3">
+             <div class=" text-center">
+                <h1>Clasificados a la Copa Mundial </h1>
+             </div>
+                   
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-6 m-3">
+                <img class="img_qtar " src="./assets/images/worlcup.jpg" alt="la copa del mundial">
+                <div class="text-center">
+                    <p class="main_text">¿Quiénes clasificaron para la Copa Mundial 2022 y qué equipos todavía tienen chance?</p>
+                </div>
+                <div class="text-center m-1">
+                    <a target="_black" href="./pages/deportes.html"> <button type="button" class="btn btn-primary"> ir a noticia</button></a>
+                </div>    
+            </div>
+        </div>
+        <div class="row justify-content-around p-2 border-top border-dark">
+            <div class="col-9">
+                <a target="_black" href="https://facebook.com"><i class="iconos_redes fab fa-facebook"></i></a>  
+                <a target="_black" href="https://instagram.com"><i class="iconos_redes fab fa-instagram"></i></a>  
+                <a target="_black" href="https://Twitter.com"><i class="iconos_redes fab fa-twitter"></i></a>  
+            </div> 
+            <div class="col-2 align-self-end">
+                <p class="derechos_reservados">© Derechos Reservados</p> 
+            </div>
+        </div>
+    </div>
+</body>
 </html>
