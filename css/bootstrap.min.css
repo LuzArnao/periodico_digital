@@ -127,3 +127,11 @@ ul {
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px black;
 }
+@media screen and (max-width: 990px) {
+    ul#flex_menu {
+        z-index: 100;
+        position: absolute;
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,181,252,1) 0%, rgba(254,219,249,1) 51%, rgba(255,255,255,1) 100%);
+    
+    }
+}
