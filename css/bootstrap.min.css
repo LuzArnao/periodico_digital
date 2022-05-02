@@ -45,8 +45,7 @@ ul {
 /*# CSS - Logo */
 
 .logo_nuevo {
-    height: 100%;
-    width: 60%;
+    width: 90%;
 }
 
 .logo_nuevo:hover {
@@ -72,13 +71,11 @@ ul {
 
 /*# CSS - Definido para deportes */
 
-.img_jugadores {
+.img_deportes {
     border: solid 5px rgb(187, 94, 171);
-    width: 80%;
-    height: 80%;
 }
 
-.img_jugadores:hover {
+.img_deportes:hover {
     border: solid 5px rgb(75, 0, 62);
     transform: skewY(2deg)
 
@@ -98,8 +95,6 @@ ul {
 
 .img_inter {
     border: solid 5px rgb(187, 94, 171);
-    height: 100% ;
-    width: 100% ;
 }
 
 .img_inter:hover {
@@ -110,28 +105,56 @@ ul {
 
 .img_nacional {
     border: solid 5px rgb(187, 94, 171);
-    height: 100% ;
-    width: 100% ;
 }
 
 .img_nacional:hover {
     border: solid 5px rgb(75, 0, 62);
     transform: skewY(2deg)
 }
-.main_text {
-    z-index: 9;
-    position: absolute;
-    left: 4%;
-    top: 67% ;
-    font-size: larger;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 2px black;
+
+/*# CSS - Media Extra Pequeño */
+
+@media screen and (max-width: 576px) {
+
+    .img_deportes {
+        height: 95%;
+        width: 95%;
+    }
+    .img_nacional {
+        height: 95%;
+        width: 95%;
+    }
+    .img_cami {
+        height: 95%;
+        width: 95%;
+    }
+    div#footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex_hijo {
+        align-self: center;
+    }
+    div#derechos_reservados {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
+
+/*# CSS - Media Pequeño */
+@media screen and (max-width: 765px) {
+
+}
+
+/*# CSS - Media Mediano */
 @media screen and (max-width: 990px) {
-    ul#flex_menu {
-        z-index: 100;
-        position: absolute;
-        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,181,252,1) 0%, rgba(254,219,249,1) 51%, rgba(255,255,255,1) 100%);
-    
+
+}
+
+/*# CSS - Media Grande */
+@media screen and (max-width: 1200px) {
+    div#tabla_deportes {
+        justify-content: center;
     }
 }
