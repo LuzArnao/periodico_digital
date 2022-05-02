@@ -5,72 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/e0d0b4a478.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Periodico Digital</title>
 </head>
 <body class="fondo_degradado">
-
     <div class="container-fluid">
-        <div class="row justify-content-around p-2 border-bottom border-dark">
-        <div class="col-2"> 
-            <img class="logo_nuevo" src="../assets/images/LOGOESN.png">
+<!-- Navbar -->
+        <div class="row border-bottom border-dark">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img class="logo_nuevo" src="../assets/images/navg_logo.png">
+                      </a>
+                      <div class="col-6">
+                        <h1>
+                            Nacional
+                        </h1>
+                      </div>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="farandula.html">Farandula</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="deportes.html">Deportes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="nacional.html">Nacional</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="internacional.html">Internacional</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
         </div>
-        <div class="col-3 align-self-center">
-            <h1>Nacional</h1>
-        </div>
-        <div class="col-6 align-self-center">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navegador">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./farandula.html">Farandula</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./deportes.html">Deportes</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./nacional.html">Nacional</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./internacional.html">Internacional</a>
-                      </li>
-                    </ul>
-                </div>
-              </nav>
-        </div>
-        </div>
+<!-- Termina el Navbar -->
+<!-- Contenido -->
         <div class="row justify-content-around">
-            <div class="col-6 m-3">
-                <h2>Fuerte Apagón</h2>
+            <div class="col mt-2">
+                <div class=" text-center">
+                    <h2 class="titulos">Fuerte Apagón</h2>
+                </div>     
             </div>
         </div>
-        <div class="row justify-content-around p-5">
-            <div class="col-6 align-self-center">
-                <p class="parrafo_izq_internacional">Sectores de la capital y algunas regiones de Venezuela se quedaron sin luz el lunes por la tarde, según testigos y reportes en redes sociales.
+        <div class="row justify-content-around pt-4">
+            <div class="col-sm-12 col-xl-5 align-self-center">
+                <p>Sectores de la capital y algunas regiones de Venezuela se quedaron sin luz el lunes por la tarde, según testigos y reportes en redes sociales.
                     Venezuela, que tiene las mayores reservas petroleras del mundo, sufrió en marzo tres masivos apagones eléctricos que dejaron a millones sin suministro de agua corriente y comunicaciones.</p>
-                <p class="parrafo_izq_internacional">El personal de la estatal venezolana se mantiene activo y realizando las maniobras para continuar recuperando la carga en los demás estados y poder en el transcurso de las siguientes horas estabilizar la energía que suministra el Sistema Eléctrico Nacional (SEN)", informó la empresa eléctrica, Corpoelec, en un tuit, que precisó que la falla inició en horas de la tarde.</p>
-                <p class="parrafo_izq_internacional">La compañía agregó que la noche del viernes recuperaron el servicio en el central estado Carabobo y los occidentales Cojedes, Lara y Mérida, luego de la falla que afectó a unas 11 regiones.En la capital de Venezuela, Caracas, usuarios de las redes sociales reportaron fallas o falta de energía eléctrica en algunas zonas. Un masivo apagón golpeó a Venezuela en marzo, que el gobierno dijo fue consecuencia de un "ataque", aunque críticos aseguran que los sucesivos cortes obedecen a la falta de inversión por años en el sistema eléctrico. Según testigos Reuters, el suministro eléctrico no estaba restituido completamente en las regiones que el gobierno dijo fue recuperado. Muchos lugares permanecían a oscuras el viernes en la noche.Guri es la mayor hidroeléctrica de Venezuela.</p>
+                <p>El personal de la estatal venezolana se mantiene activo y realizando las maniobras para continuar recuperando la carga en los demás estados y poder en el transcurso de las siguientes horas estabilizar la energía que suministra el Sistema Eléctrico Nacional (SEN)", informó la empresa eléctrica, Corpoelec, en un tuit, que precisó que la falla inició en horas de la tarde.</p>
+                <p>La compañía agregó que la noche del viernes recuperaron el servicio en el central estado Carabobo y los occidentales Cojedes, Lara y Mérida, luego de la falla que afectó a unas 11 regiones.En la capital de Venezuela, Caracas, usuarios de las redes sociales reportaron fallas o falta de energía eléctrica en algunas zonas. Un masivo apagón golpeó a Venezuela en marzo, que el gobierno dijo fue consecuencia de un "ataque", aunque críticos aseguran que los sucesivos cortes obedecen a la falta de inversión por años en el sistema eléctrico. Según testigos Reuters, el suministro eléctrico no estaba restituido completamente en las regiones que el gobierno dijo fue recuperado. Muchos lugares permanecían a oscuras el viernes en la noche.Guri es la mayor hidroeléctrica de Venezuela.</p>
             </div>
-            <div class="col-4 align-self-center">
-                <img src="../assets/images/apagones_selectra.jpg" alt="sin luz" class="img_nacional">
+            <div class="col-sm-12 col-xl-6 align-self-center d-flex justify-content-center mb-2">
+                <img src="../assets/images/apagonnacio_615.jpg" alt="sin luz" class="img_nacional">
             </div>
         </div>
+<!-- Termina el Contenido -->
+<!-- Footer -->
         <div class="row justify-content-around p-2 border-top border-dark">
-            <div class="col-9">
-                <a target="_black" href="https://facebook.com"><i class="iconos_redes fab fa-facebook"></i></a>  
-                <a target="_black" href="https://instagram.com"><i class="iconos_redes fab fa-instagram"></i></a>  
-                <a target="_black" href="https://Twitter.com"><i class="iconos_redes fab fa-twitter"></i></a>  
-            </div> 
-            <div class="col-2 align-self-end">
-                <p class="derechos_reservados">© Derechos Reservados</p> 
-            </div>
+          <div class="col-sm-12 col-md-6" id="footer">
+              <a target="_black" href="https://facebook.com" class="flex_hijo"><i class="iconos_redes fab fa-facebook"></i></a>  
+              <a target="_black" href="https://instagram.com" class="flex_hijo"><i class="iconos_redes fab fa-instagram"></i></a>  
+              <a target="_black" href="https://Twitter.com" class="flex_hijo"><i class="iconos_redes fab fa-twitter"></i></a>  
+          </div> 
+          <div class="col-sm-12 col-md-6 d-flex justify-content-end" id="derechos_reservados">
+              <p class="flex_hijo">© Derechos Reservados</p> 
+          </div>
         </div>
+<!-- Termina el Footer -->
     </div>
-
-
 </body>
 </html>

@@ -5,74 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/e0d0b4a478.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Periodico Digital</title>
 </head>
 <body class="fondo_degradado">
-
-    <div class="container-fluid">
-        <div class="row justify-content-around p-2 border-bottom border-dark">
-        <div class="col-2"> 
-            <img class="logo_nuevo" src="../assets/images/LOGOESN.png">
-        </div>
-        <div class="col-3 align-self-center">
-            <h1>Farándula</h1>
-        </div>
-        <div class="col-6 align-self-center">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navegador">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./farandula.html">Farandula</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./deportes.html">Deportes</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./nacional.html">Nacional</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./internacional.html">Internacional</a>
-                      </li>
-                    </ul>
-                </div>
-              </nav>
-        </div>
-        </div>
+  <div class="container-fluid">
+<!-- Navbar -->
+    <div class="row border-bottom border-dark">
+      <div class="col">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img class="logo_nuevo" src="../assets/images/navg_logo.png">
+              </a>
+              <div class="col-6">
+                <h1>
+                    Farandula
+                </h1>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="farandula.html">Farandula</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="deportes.html">Deportes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nacional.html">Nacional</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="internacional.html">Internacional</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </div>
+    </div>
+<!-- Termina el Navbar -->
+<!-- Contenido -->
         <div class="row justify-content-around">
-            <div class="col-6 m-3">
-                <h2>Camila estalla ante los comentarios sobre su cuerpo</h2>
+            <div class="col mt-2">
+                <div class=" text-center">
+                    <h2 class="titulos">Camila estalla ante los comentarios sobre su cuerpo</h2>
+                </div>     
             </div>
         </div>
-        <div class="row justify-content-around p-5">
-            <div class="col-4 align-self-center">
+        <div class="row justify-content-around m-3">
+            <div class="col-sm-12 col-xl-5 align-self-center">
                 <p class="parrafo_izq_internacional">Si bien entiende que el precio de la fama involucra perder ciertos grados de privacidad, no poder siquiera pasar un día en la playa sin ser acosada por los fotógrafos comienza a afectar su salud. "Siempre he usado bikinis pequeños sin importarme cómo me veía, pero luego he visto las fotos y los comentarios online... Nunca me he sentido peor". En el texto, describe el proceso de 'luto' que atraviesa al recordar la inocencia de la niñez, una época 'sin gafas de sol, joyería ni autoconciencia' en la que poco interesa lo que otros piensen.</p>
                 <p class="parrafo_izq_internacional">Cabello se enfrenta a las críticas después de haber sido fotografiada con un bikini estampado en Miami. No es la primera vez, por lo que podríamos decir que la cantante de Havana se ha convertido en toda una experta al momento de lidiar con los haters, pero todo tiene un límite. En esta ocasión, ha querido responder cuanto antes con un emotivo comunicado en sus redes sociales, en el que expone el lado negativo de ser una figura pública, al mismo tiempo que arremete contra los cánones de belleza impuestos a las mujeres.</p>
                 <p class="parrafo_izq_internacional">La intérprete de Don't Go Yet admite que no ha sido fácil afrontar las críticas dirigidas a su cuerpo, pues se encuentra lejos del estándar de perfección que se exige a las celebridades. Para combatir los pensamientos negativos, acude a terapia y consume contenido de otras mujeres que aceptan su celulitis, hinchazón, estrías y cambios de peso, desafiando el retrato colectivo que se tiene de una persona sana. Camila asegura que vivimos en una 'cultura que se ha acostumbrado tanto a una imagen de cómo debería verse una mujer saludable y no es real para muchas'.</p>
             </div>
-            <div class="col-5 align-self-center">
+            <div class="col-sm-12 col-xl-6 align-self-center d-flex justify-content-center">
                 <img src="../assets/images/camila-z.jpg" alt="camila pensando" class="img_cami">
             </div>
         </div>
-       <div class="row justify-content-around">
+       <div class="row justify-content-around pb-2">
         <iframe class="video" width="100%" height="365px" src="https://www.youtube.com/embed/n8aFUnVevKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        </div>
+<!-- Termina el Contenido -->
+<!-- Footer -->
         <div class="row justify-content-around p-2 border-top border-dark">
-            <div class="col-9">
-                <a target="_black" href="https://facebook.com"><i class="iconos_redes fab fa-facebook"></i></a>  
-                <a target="_black" href="https://instagram.com"><i class="iconos_redes fab fa-instagram"></i></a>  
-                <a target="_black" href="https://Twitter.com"><i class="iconos_redes fab fa-twitter"></i></a>  
-            </div> 
-            <div class="col-2 align-self-end">
-                <p class="derechos_reservados">© Derechos Reservados</p> 
-            </div>
+          <div class="col-sm-12 col-md-6" id="footer">
+              <a target="_black" href="https://facebook.com" class="flex_hijo"><i class="iconos_redes fab fa-facebook"></i></a>  
+              <a target="_black" href="https://instagram.com" class="flex_hijo"><i class="iconos_redes fab fa-instagram"></i></a>  
+              <a target="_black" href="https://Twitter.com" class="flex_hijo"><i class="iconos_redes fab fa-twitter"></i></a>  
+          </div> 
+          <div class="col-sm-12 col-md-6 d-flex justify-content-end" id="derechos_reservados">
+              <p class="flex_hijo">© Derechos Reservados</p> 
+          </div>
         </div>
+<!-- Termina el Footer -->
     </div>
-
-
 </body>
 </html>
