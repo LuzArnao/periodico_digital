@@ -1,0 +1,146 @@
+// CSS - Body - Header 
+
+body {
+
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,181,252,1) 0%, rgba(254,219,249,1) 51%, rgba(255,255,255,1) 100%);
+
+}
+
+header {
+
+    ul {
+        list-style: none;
+    }
+}
+
+/// CSS - Logo
+
+.logo_nuevo {
+    width: 90%;
+
+    &:hover {
+        animation-name: vuelta_logo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@keyframes vuelta_logo {
+    0%{ transform: rotate(0turn); }
+    100%{ transform: rotate(1turn); }
+ }
+
+ /*# CSS - Definido para INDEX */
+
+ .img_qtar {
+    border: solid 5px rgb(187, 94, 171);
+    
+    &:hover {
+        border: solid 5px rgb(75, 0, 62);
+    }
+}
+
+/*# CSS - Definido para deportes */
+
+.img_deportes {
+    border: solid 5px rgb(187, 94, 171);
+    
+    &:hover{
+        border: solid 5px rgb(75, 0, 62);
+        transform: skewY(2deg)
+    }
+}
+
+/*# CSS - Definido para FARANDULA */
+
+ .img_cami {
+    border: solid 5px rgb(187, 94, 171);
+
+    &:hover{
+        border: solid 5px rgb(75, 0, 62);
+        transform: skewY(2deg)
+    }
+}
+
+/*# CSS - Definido para INTERNACIONAL */
+
+.img_inter {
+    border: solid 5px rgb(187, 94, 171);
+
+    &:hover{
+        border: solid 5px rgb(75, 0, 62);
+        transform: skewY(2deg)
+    }
+}
+
+/*# CSS - Definido para NACIONAL */
+
+.img_nacional {
+    border: solid 5px rgb(187, 94, 171);
+
+    &:hover{
+        border: solid 5px rgb(75, 0, 62);
+        transform: skewY(2deg)
+    }
+}
+
+/// CSS - Footer
+
+.iconos_redes {
+    color: black;
+    font-size: 40px;
+    padding: 5px;
+
+    &:hover {
+        color: blue;
+        font-size: 42px;
+        padding: 5px;
+    }
+}
+
+/*# CSS - Media Extra Pequeño */
+
+@media screen and (max-width: 576px) {
+
+    .img_deportes {
+        height: 95%;
+        width: 95%;
+    }
+    .img_nacional {
+        height: 95%;
+        width: 95%;
+    }
+    .img_cami {
+        height: 95%;
+        width: 95%;
+    }
+    div#footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex_hijo {
+        align-self: center;
+    }
+    div#derechos_reservados {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/*# CSS - Media Pequeño */
+@media screen and (max-width: 765px) {
+
+}
+
+/*# CSS - Media Mediano */
+@media screen and (max-width: 990px) {
+
+}
+
+/*# CSS - Media Grande */
+@media screen and (max-width: 1200px) {
+    div#tabla_deportes {
+        justify-content: center;
+    }
+}
