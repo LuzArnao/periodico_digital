@@ -84,30 +84,21 @@ header {
     }
 }
 
-/// CSS - Footer
-
-.iconos_redes {
-    color: black;
-    font-size: 40px;
-    padding: 5px;
-
-    &:hover {
-        color: blue;
-        font-size: 42px;
-        padding: 5px;
-    }
-}
-
 ///sassII///
+
+@mixin redes($size, $padding) {
+    font-size: $size;
+    padding: $padding;
+ }
 
 $redes_sociales: ( 
         facebook: #55acee,
-        instagram:  #3a5795,
-        twitter: #C25E30
+        instagram:  #ea4812,
+        twitter: #4b64b0
 ); 
 @each $red, $color in $redes_sociales{
    .boton--#{$red} {
-       background-color: $color;
+       color: $color;
        
        &:hover {
         color: blue;
@@ -115,11 +106,6 @@ $redes_sociales: (
     }
 
    }
-}
-
-@mixin redes($size, $padding) {
-   font-size: $size;
-   padding: $padding;
 }
 
 .boton {
