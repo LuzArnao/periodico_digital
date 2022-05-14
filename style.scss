@@ -98,6 +98,47 @@ header {
     }
 }
 
+///sassII///
+
+$redes_sociales: ( 
+        facebook: #55acee,
+        instagram:  #3a5795,
+        twitter: #C25E30
+); 
+@each $red, $color in $redes_sociales{
+   .boton--#{$red} {
+       background-color: $color;
+       
+       &:hover {
+        color: blue;
+        @include redes(42px, 5px);
+    }
+
+   }
+}
+
+@mixin redes($size, $padding) {
+   font-size: $size;
+   padding: $padding;
+}
+
+.boton {
+    font-size:40px;
+    padding:5px;
+}
+
+.boton--facebook{
+    @extend .boton;
+}
+
+.boton--instagram{
+    @extend .boton;
+}
+
+.boton--twitter{
+    @extend .boton;
+}
+
 /*# CSS - Media Extra Pequeño */
 
 @media screen and (max-width: 576px) {
