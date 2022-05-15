@@ -96,12 +96,17 @@ $redes_sociales: (
         instagram:  #ea4812,
         twitter: #4b64b0
 ); 
+
+$map_get: ( 
+        color: blue
+); 
+
 @each $red, $color in $redes_sociales{
    .boton--#{$red} {
        color: $color;
        
        &:hover {
-        color: blue;
+        color: map-get($map_get, color);
         @include redes(42px, 5px);
     }
 
